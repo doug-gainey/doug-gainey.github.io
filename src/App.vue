@@ -42,7 +42,7 @@ import LinkedInIcon from '@/components/icons/LinkedInIcon.vue'
     <RouterView />
   </main>
   <footer>
-    Copyright &copy; {{ (new Date()).getFullYear() }} <a href="https://github.com/doug-gainey" target="_blank">Doug Gainey</a>.
+    Copyright &copy; {{ (new Date()).getFullYear() }} Doug Gainey.
   </footer>
 </template>
 
@@ -60,7 +60,7 @@ header {
   width: 125px;
   height: 125px;
   border-radius: 50%;
-  border: 5px solid #41b883;
+  border: 5px solid var(--color-brand);
 }
 
 .contact-icons {
@@ -72,6 +72,10 @@ header {
 
   a {
     padding: 5px;
+
+    &:hover {
+      border-radius: 5px;
+    }
   }
 
   i {
@@ -109,10 +113,6 @@ main {
   margin: 24px auto 0 auto;
 }
 
-.desktop {
-  display: none;
-}
-
 footer {
   position: fixed;
   bottom: 0;
@@ -147,14 +147,6 @@ footer {
 
   main {
     margin: auto 0;
-  }
-
-  .desktop {
-    display: inline-block;
-  }
-
-  .mobile {
-    display: none;
   }
 
   footer {

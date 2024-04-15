@@ -5,7 +5,8 @@
       <h3>Magic Resume Generator</h3>
       <p>
         Built a resume generator with Vite, Vue 3, Puppeteer, and LESS, and used it to generate my
-        <a href="https://resume-generator.douggainey.com/resume" target="_blank">personal resume</a>. It imports resume
+        <a class="desktop" href="https://resume-generator.douggainey.com/resume" target="_blank">personal resume</a>
+        <a class="mobile" href="https://resume-generator.douggainey.com/resume" target="_blank">personal resume</a>. It imports resume
         data in YAML or JSON format and generates multiple resume variations.
       </p>
       <p>
