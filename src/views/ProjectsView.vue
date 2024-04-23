@@ -4,10 +4,11 @@
     <section>
       <h3>Verse of the Day</h3>
       <p>
-        This is a Vite + Vue 3 / Vuetify app I built to display a different Bible verse each day.
-        It includes the ability to choose from a list of translations, and
-        provides the option of reading the full chapter.  I also built a Cloudflare worker
-        and a Web Push service to handle subscriptions and daily push notifications reminding the user to review that day's verse.
+        This is a Vite + Vue 3 / Vuetify app I built to display a different Bible verse on a
+        different background photo each day. It includes the ability to choose from a list of
+        translations, and provides an option to read the full chapter.  I also built a Cloudflare
+        worker and a Web Push service to handle subscriptions and daily push notifications
+        reminding the user to review that day's verse.
       </p>
       <p>
         <a href="https://verse.douggainey.com" target="_blank">Website</a><br/>
