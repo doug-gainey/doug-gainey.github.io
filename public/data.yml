@@ -181,9 +181,13 @@ skills:
 #knowledge: I also have a sweet boat and could take you fishing! :)
 
 projects:
+  - name: Verse of the Day
+    platform: Vite + Vue 3 / Cloudflare Worker / Node.js
+    description: Built an app to display a different Bible verse on a different background photo each day.
+      Includes a Cloudflare worker and a Node.js Web Push service to handle subscriptions and daily push notifications.
+    url: https://verse.douggainey.com
   - name: Magic Resume Generator
     platform: Vite + Vue 3
-    timePeriod: Apr 2024
     description: Built a resume generator with Vite, Vue 3, Puppeteer, and LESS, and used it to generate my resume.
     url: https://github.com/doug-gainey/magic-resume-generator
 
