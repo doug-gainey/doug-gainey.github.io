@@ -42,7 +42,7 @@ import LinkedInIcon from '@/components/icons/LinkedInIcon.vue'
     <RouterView />
   </main>
   <footer>
-    Copyright &copy; {{ (new Date()).getFullYear() }} Doug Gainey.
+    Copyright &copy; {{ (new Date()).getFullYear() }} Doug Gainey
   </footer>
 </template>
 
@@ -137,6 +137,7 @@ footer {
       flex-wrap: wrap;
       gap: 12px;
       justify-content: center;
+      text-align: center;
     }
   }
 
