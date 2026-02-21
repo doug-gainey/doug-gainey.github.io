@@ -104,38 +104,32 @@ education:
     url: http://www.fmarion.edu/computerscience/
 
 skills:
-  - name: JavaScript, TypeScript
+  - name: JavaScript (ES6+), TypeScript
     level: 99
     type: Programming Languages
   - name: C#
     level: 95
     type: Programming Languages
-  - name: .NET MVC / .NET Core / Razor
+  - name: .NET Core / .NET MVC
     level: 95
     type: Web Technologies
-  - name: VueJS / Vite
+  - name: Vite
     level: 97
     type: Web Technologies
-  - name: jQuery
-    level: 99
+  - name: Vue.js
+    level: 97
     type: Web Technologies
   - name: CSS / SCSS / LESS
     level: 99
     type: Web Technologies
-  - name: NPM
-    level: 95
-    type: Web Technologies
-  - name: Webpack
-    level: 95
-    type: Web Technologies
-  - name: Grunt / Gulp
+  - name: NPM / Node.js
     level: 95
     type: Web Technologies
   - name: SQL Server
     level: 85
     type: Databases
   - name: PostgresSQL
-    level: 50
+    level: 70
     type: Databases
   - name: Couchbase
     level: 60
@@ -149,21 +143,18 @@ skills:
   - name: GitHub Actions
     level: 90
     type: CI/CD Tools
-  - name: Segment
-    level: 90
-    type: Monitoring & Analytics
-  - name: Intercom
-    level: 80
-    type: Monitoring & Analytics
-  - name: Pendo
-    level: 99
-    type: Monitoring & Analytics
-  - name: Google Analytics
-    level: 90
-    type: Monitoring & Analytics
   - name: Datadog
     level: 75
-    type: Monitoring & Analytics
+    type: Observability & Monitoring
+  - name: Pendo
+    level: 99
+    type: Observability & Monitoring
+  - name: Segment
+    level: 90
+    type: Observability & Monitoring
+  - name: Intercom
+    level: 80
+    type: Observability & Monitoring
   - name: Git
     level: 97
     type: Other
@@ -176,6 +167,15 @@ skills:
   - name: Figma / InVision
     level: 95
     type: Other
+  - name: Cursor
+    level: 95
+    type: AI
+  - name: Amp
+    level: 95
+    type: AI
+  - name: Cody
+    level: 95
+    type: AI
 
 #knowledge: I also have a sweet boat and could take you fishing! :)
 
