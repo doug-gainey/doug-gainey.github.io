@@ -104,78 +104,63 @@ education:
     url: http://www.fmarion.edu/computerscience/
 
 skills:
-  - name: JavaScript (ES6+), TypeScript
+  - name: Vue.js (2 → 3)
     level: 99
-    type: Programming Languages
+    type: Frontend Architecture & Platform Engineering
+  - name: TypeScript
+    level: 99
+    type: Frontend Architecture & Platform Engineering
+  - name: Design Systems
+    level: 99
+    type: Frontend Architecture & Platform Engineering
+  - name: Component Libraries
+    level: 99
+    type: Frontend Architecture & Platform Engineering
+  - name: Web Components
+    level: 99
+    type: Frontend Architecture & Platform Engineering
+  - name: Cross-Team Architecture Governance
+    level: 99
+    type: Technical Leadership
+  - name: Frontend Modernization
+    level: 99
+    type: Technical Leadership
+  - name: Hands-On IC Mentorship
+    level: 99
+    type: Technical Leadership
+  - name: .NET Core
+    level: 95
+    type: Backend & Data
   - name: C#
-    level: 95
-    type: Programming Languages
-  - name: .NET Core / .NET MVC
-    level: 95
-    type: Web Technologies
-  - name: Vite
     level: 97
-    type: Web Technologies
-  - name: Vue.js
-    level: 97
-    type: Web Technologies
-  - name: CSS / SCSS / LESS
-    level: 99
-    type: Web Technologies
-  - name: NPM / Node.js
-    level: 95
-    type: Web Technologies
+    type: Backend & Data
   - name: SQL Server
-    level: 85
-    type: Databases
-  - name: PostgresSQL
-    level: 70
-    type: Databases
-  - name: Couchbase
-    level: 60
-    type: Databases
-  - name: Team City
-    level: 80
-    type: CI/CD Tools
-  - name: Jenkins
-    level: 80
-    type: CI/CD Tools
-  - name: GitHub Actions
-    level: 90
-    type: CI/CD Tools
-  - name: Datadog
-    level: 75
-    type: Observability & Monitoring
-  - name: Pendo
+    level: 97
+    type: Backend & Data
+  - name: REST APIs
     level: 99
-    type: Observability & Monitoring
-  - name: Segment
-    level: 90
-    type: Observability & Monitoring
-  - name: Intercom
-    level: 80
-    type: Observability & Monitoring
-  - name: Git
-    level: 97
-    type: Other
-  - name: Jira
-    level: 90
-    type: Other
-  - name: Agile / Scrum / Kanban
-    level: 97
-    type: Other
-  - name: Figma / InVision
-    level: 95
-    type: Other
+    type: Backend & Data
+  - name: Vite
+    level: 99
+    type: Tooling & DevOps
+  - name: Node.js / npm
+    level: 99
+    type: Tooling & DevOps
+  - name: CI/CD (GitHub Actions, Jenkins)
+    level: 99
+    type: Tooling & DevOps
+  - name: Observability (Datadog, Pendo)
+    level: 99
+    type: Tooling & DevOps
   - name: Cursor
     level: 95
-    type: AI
+    type: AI-Assisted Development
   - name: Amp
     level: 95
-    type: AI
+    type: AI-Assisted Development
   - name: Cody
     level: 95
-    type: AI
+    type: AI-Assisted Development
 
 #knowledge: I also have a sweet boat and could take you fishing! :)
 
