@@ -129,13 +129,13 @@ skills:
     level: 99
     type: Technical Leadership
   - name: .NET Core
-    level: 95
+    level: 99
     type: Backend & Data
   - name: C#
-    level: 97
+    level: 99
     type: Backend & Data
   - name: SQL Server
-    level: 97
+    level: 99
     type: Backend & Data
   - name: REST APIs
     level: 99
@@ -153,38 +153,38 @@ skills:
     level: 99
     type: Tooling & DevOps
   - name: Cursor
-    level: 95
+    level: 99
     type: AI-Assisted Development
   - name: Amp
-    level: 95
+    level: 99
     type: AI-Assisted Development
   - name: Cody
-    level: 95
+    level: 99
     type: AI-Assisted Development
 
 #knowledge: I also have a sweet boat and could take you fishing! :)
 
-projects:
-  - name: Verse of the Day
-    platform: Vite + Vue 3 / Cloudflare Worker / Node.js
-    description: Built an app to display a different Bible verse on a different background photo each day.
-      Includes a Cloudflare worker and a Node.js Web Push service to handle subscriptions and daily push notifications.
-    url: https://verse.douggainey.com
-  - name: Magic Resume Generator
-    platform: Vite + Vue 3
-    description: Built a resume generator with Vite, Vue 3, Puppeteer, and LESS, and used it to generate my resume.
-    url: https://github.com/doug-gainey/magic-resume-generator
+# projects:
+#   - name: Verse of the Day
+#     platform: Vite + Vue 3 / Cloudflare Worker / Node.js
+#     description: Built an app to display a different Bible verse on a different background photo each day.
+#       Includes a Cloudflare worker and a Node.js Web Push service to handle subscriptions and daily push notifications.
+#     url: https://verse.douggainey.com
+#   - name: Magic Resume Generator
+#     platform: Vite + Vue 3
+#     description: Built a resume generator with Vite, Vue 3, Puppeteer, and LESS, and used it to generate my resume.
+#     url: https://github.com/doug-gainey/magic-resume-generator
 
 #contributions:
 #  - name: Magic Resume Generator
 #    description: Built a resume generator with Vite, Vue 3, Puppeteer, and LESS, and used it to generate my resume.
 #    url: https://github.com/doug-gainey/magic-resume-generator
 
-hobbies:
-  - name: Offshore Fishing
-    iconClass: material-icons md-phishing
-  - name: College / NFL Football
-    iconClass: material-icons md-sports_football
+# hobbies:
+#   - name: Offshore Fishing
+#     iconClass: material-icons md-phishing
+#   - name: College / NFL Football
+#     iconClass: material-icons md-sports_football
 
 # Available languages:
 # ca, cn, de, el, en, es, fr, he, hu, id, it, ja, ka, ko, lt, nb-no, nl, no-nn, pl, pt, pt-br, ru, sv, th, tr, zh-tw
