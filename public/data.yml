@@ -39,6 +39,7 @@ experience:
       - As the company lead for front-end architecture, functioned as the highest point of escalation for advanced front-end troubleshooting.
       - Provided architecture support, mentoring, and training for front-end developers.
     url: http://www.acstechnologies.com/
+    breakAfter: true
 
   - company: ACS Technologies, Inc.
     position: Principal Software Engineer
