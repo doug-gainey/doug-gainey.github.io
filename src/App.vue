@@ -31,7 +31,7 @@ import LinkedInIcon from '@/components/icons/LinkedInIcon.vue'
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/about">About</RouterLink>
           <RouterLink to="/projects">Projects</RouterLink>
-          <a class="desktop" href="https://resume-generator.douggainey.com/assets/pdf/resume.pdf" target="_blank"
+          <a href="https://resume-generator.douggainey.com/assets/pdf/resume.pdf" target="_blank"
              download="Douglas Gainey - Resume.pdf">Resume</a>
         </nav>
       </div>
