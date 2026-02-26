@@ -34,7 +34,7 @@ import LinkedInIcon from '@/components/icons/LinkedInIcon.vue'
           <a class="desktop" href="https://resume-generator.douggainey.com/assets/pdf/resume.pdf" target="_blank"
              download="resume.pdf">Resume</a>
           <a class="mobile" href="https://resume-generator.douggainey.com/assets/pdf/resume.pdf" target="_blank"
-             download="resume.pdf">Resume</a>
+             download="Douglas Gainey - Resume.pdf">Resume</a>
         </nav>
       </div>
     </div>
