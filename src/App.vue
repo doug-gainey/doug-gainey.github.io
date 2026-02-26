@@ -150,6 +150,9 @@ footer {
     height: calc(100vh - 80px);
     margin: auto 0;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
   footer {
