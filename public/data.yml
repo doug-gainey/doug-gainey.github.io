@@ -102,8 +102,10 @@ experience:
 
 education:
   - school: Francis Marion University, Florence, SC
-    degree: B.S. in Computer Science, Minor in Applied Mathematics
+    degree: Bachelor of Science, Computer Science
     # timePeriod: 2003
+    minor: Applied Mathematics
+    honors: President's List; Dean's List
     url: http://www.fmarion.edu/computerscience/
 
 skills:
@@ -170,12 +172,11 @@ skills:
 projects:
   - name: Verse of the Day
     platform: Vite + Vue 3 / Cloudflare Worker / Node.js
-    description: Built an app to display a different Bible verse on a different background photo each day.
-      Includes a Cloudflare worker and a Node.js Web Push service to handle subscriptions and daily push notifications.
+    description: Built and deployed a Vue 3 application backed by a Cloudflare Worker and Node.js Web Push service, delivering daily dynamic content with subscription-based push notifications.
     url: https://verse.douggainey.com
   - name: Magic Resume Generator
     platform: Vite + Vue 3
-    description: Built a resume generator with Vite, Vue 3, Puppeteer, and LESS, and used it to generate my resume.
+    description: Developed a resume generation system using Vue 3, Vite, Puppeteer, and LESS to programmatically render and export tailored PDF resumes.
     url: https://github.com/doug-gainey/magic-resume-generator
 
 #contributions:
