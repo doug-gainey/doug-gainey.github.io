@@ -2,7 +2,7 @@
   <div>
     <h2>About Me</h2>
     <p>
-      Christian. Husband. Father. Software Engineer. Fisherman. Lifelong Learner.
+      Christian. Husband. Father. Software Engineer.
     </p>
     <p>
       Outside of work, I enjoy traveling with my family, cheering on my kids at their latest sporting event and getting offshore whenever I can to fish.
