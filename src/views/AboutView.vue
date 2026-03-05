@@ -8,7 +8,7 @@
       Outside of work, I enjoy traveling with my family, cheering on my kids at their latest sporting event and getting offshore whenever I can to fish.
     </p>
     <p>
-      Professionally, I'm an Enterprise Software Architect with 20+ years of experience with a passion for building practical systems that make a positive human impact.
+      Professionally, I'm an Enterprise Software Architect with 20+ years of experience and a passion for building practical systems that make a positive human impact.
     </p>
     <p class="flex flex--gapped">
       <i class="material-icons md-person"></i>
