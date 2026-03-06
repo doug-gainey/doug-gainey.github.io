@@ -25,7 +25,7 @@ experience:
     timePeriod: Sep 2022 - Feb 2026
     description:
       - Served as highest-level frontend technical authority across 10+ engineering teams and 8+ enterprise SaaS products, establishing UI architecture standards influencing 30+ engineers organization-wide.
-      - Established shared component strategy and design system foundations adopted across 8+ products, preventing redundant UI implementations and significantly improving cross-product consistency.
+      - Established shared component architecture and design system standards adopted across 8+ enterprise products, ensuring consistent UI patterns, CSS architecture, and reusable component development.
       - Architected a global, framework-agnostic Web Components platform, enabling reusable functionality across multiple technical stacks (Vue, Angular, React) and eliminating duplicated feature builds.
       - Led organization-wide modernization initiatives, including Vue 2 → Vue 3 migration, delivering reusable upgrade frameworks that allowed teams to modernize in parallel without disrupting active release cycles.
       - Defined and executed multi-year frontend platform roadmap, aligning modernization with active release cycles and preventing disruption across 8+ revenue-generating products.
@@ -39,7 +39,7 @@ experience:
     timePeriod: May 2021 - Sep 2022
     description:
       - Led architectural redesign of flagship church management platform, delivering structural, component, and styling overhaul that improved maintainability and accelerated feature development.
-      - Spearheaded migration of extensive legacy jQuery plugin ecosystem to Vue-based component architecture, reducing technical debt and lowering regression risk during ongoing feature delivery.
+      - Spearheaded migration of large legacy jQuery plugin ecosystem to modern Vue component architecture, reducing technical debt and establishing maintainable UI foundations.
       - Served as company-wide escalation point for complex frontend architectural challenges, resolving high-impact technical blockers affecting multiple teams.
       - Provided architectural guidance and structured technical training that reduced recurring frontend defects and improved cross-team implementation consistency.
     url: http://www.acstechnologies.com/
@@ -111,19 +111,37 @@ education:
 skills:
   - name: Vue.js (2 → 3)
     level: 99
-    type: Frontend Architecture & Platform Engineering
+    type: Frontend Architecture & Design Systems
   - name: TypeScript
     level: 99
-    type: Frontend Architecture & Platform Engineering
+    type: Frontend Architecture & Design Systems
   - name: Design Systems
     level: 99
-    type: Frontend Architecture & Platform Engineering
+    type: Frontend Architecture & Design Systems
+  - name: CSS Architecture
+    level: 99
+    type: Frontend Architecture & Design Systems
   - name: Component Libraries
     level: 99
-    type: Frontend Architecture & Platform Engineering
+    type: Frontend Architecture & Design Systems
   - name: Web Components
     level: 99
-    type: Frontend Architecture & Platform Engineering
+    type: Frontend Architecture & Design Systems
+  - name: CSS
+    level: 99
+    type: Frontend Technologies
+  - name: LESS / Sass
+    level: 99
+    type: Frontend Technologies
+  - name: Responsive Design
+    level: 99
+    type: Frontend Technologies
+  - name: Bootstrap
+    level: 99
+    type: Frontend Technologies
+  - name: jQuery
+    level: 99
+    type: Frontend Technologies
   - name: Cross-Team Architecture Governance
     level: 99
     type: Technical Leadership
@@ -172,7 +190,7 @@ skills:
 projects:
   - name: Verse of the Day
     platform: Vite + Vue 3 / Cloudflare Worker / Node.js
-    description: Built and deployed a Vue 3 application backed by a Cloudflare Worker and Node.js Web Push service, delivering daily dynamic content with subscription-based push notifications.
+    description: Built and deployed a Vue 3 application with modern responsive CSS architecture, backed by a Cloudflare Worker and Node.js Web Push service.
     url: https://verse.douggainey.com
   - name: Magic Resume Generator
     platform: Vite + Vue 3
