@@ -30,7 +30,7 @@ experience:
       - Led organization-wide modernization initiatives, including Vue 2 → Vue 3 migration, delivering reusable upgrade frameworks that allowed teams to modernize in parallel without disrupting active release cycles.
       - Defined and executed multi-year frontend platform roadmap, aligning modernization with active release cycles and preventing disruption across 8+ revenue-generating products.
       - Engineered reusable AI-powered components leveraging OpenAI APIs and introduced AI-assisted development workflows (Cursor, Cody, Amp) to accelerate delivery and improve architectural consistency.
-      - Partnered cross-functionally to mitigate architectural risk, reduce regression exposure during modernization, and unblock delivery bottlenecks across product teams.
+      # - Partnered cross-functionally to mitigate architectural risk, reduce regression exposure during modernization, and unblock delivery bottlenecks across product teams.
       - Mentored senior engineers while remaining hands-on in architectural reference implementations and high-impact code paths.
     url: http://www.acstechnologies.com/
 
