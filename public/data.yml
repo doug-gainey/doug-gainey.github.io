@@ -2,7 +2,7 @@ name:
   first: Douglas
   last: Gainey
 
-position: Principal Frontend Platform Engineer
+position: Principal Frontend Engineer
 
 location: Florence, SC
 
@@ -17,7 +17,7 @@ contact:
 
 picture: https://douggainey.com/headshot.jpg
 
-about: Principal-level Frontend Engineer with 20+ years of experience designing and scaling UI platforms, design systems, and developer tooling for enterprise web applications. Former Enterprise Front-End Architect responsible for defining frontend standards across 10+ engineering teams and 8 SaaS products. Deep expertise in component architecture, frontend infrastructure, and modernization of large web platforms. Hands-on engineer focused on enabling teams to build consistent, maintainable user interfaces at scale.
+about: Principal-level Frontend Engineer with 20+ years of experience designing, modernizing, and scaling enterprise web platforms. Served as the highest-level frontend technical leader at ACS Technologies, defining architectural standards across 10+ engineering teams and 8+ enterprise applications. Deep expertise in Vue.js, TypeScript, design systems, and frontend platform engineering. Hands-on individual contributor focused on scalable systems, modernization initiatives, cross-team technical leadership, and long-term maintainability.
 
 experience:
   - company: ACS Technologies, Inc.
@@ -25,12 +25,12 @@ experience:
     timePeriod: Sep 2022 - Feb 2026
     description:
       - Served as highest-level frontend technical authority across 10+ engineering teams and 8+ enterprise SaaS products, establishing UI architecture standards influencing 30+ engineers organization-wide.
-      - Established shared component architecture and design system foundations adopted across 8+ products, enabling consistent UI development across multiple engineering teams.
-      - Architected a framework-agnostic Web Components platform and supporting build infrastructure, enabling reusable UI capabilities across multiple products and engineering teams.
-      - Led organization-wide frontend modernization initiatives including a Vue 2 → Vue 3 migration, developing upgrade tooling and migration frameworks that allowed multiple teams to modernize safely in parallel.
+      - Established shared component strategy and design system foundations adopted across 8+ products, preventing redundant UI implementations and significantly improving cross-product consistency.
+      - Architected a global, framework-agnostic Web Components platform, enabling reusable functionality across multiple technical stacks (Vue, Angular, React) and eliminating duplicated feature builds.
+      - Led organization-wide modernization initiatives, including Vue 2 → Vue 3 migration, delivering reusable upgrade frameworks that allowed teams to modernize in parallel without disrupting active release cycles.
       - Defined and executed multi-year frontend platform roadmap, aligning modernization with active release cycles and preventing disruption across 8+ revenue-generating products.
       - Engineered reusable AI-powered components leveraging OpenAI APIs and introduced AI-assisted development workflows (Cursor, Cody, Amp) to accelerate delivery and improve architectural consistency.
-      - Developed tooling, documentation, and architectural guidance that enabled teams to adopt shared UI components and frontend standards with minimal friction.
+      - Partnered cross-functionally to mitigate architectural risk, reduce regression exposure during modernization, and unblock delivery bottlenecks across product teams.
       - Mentored senior engineers while remaining hands-on in architectural reference implementations and high-impact code paths.
     url: http://www.acstechnologies.com/
 
@@ -144,19 +144,19 @@ skills:
     type: Backend & Data
   - name: REST APIs
     level: 99
-    type: Backend & Data  
+    type: Backend & Data
   - name: Vite
     level: 99
-    type: Frontend Tooling & Infrastructure
+    type: Tooling & DevOps
   - name: Node.js / npm
     level: 99
-    type: Frontend Tooling & Infrastructure
+    type: Tooling & DevOps
   - name: CI/CD (GitHub Actions, Jenkins)
     level: 99
-    type: Frontend Tooling & Infrastructure
-  - name: Build Pipelines
+    type: Tooling & DevOps
+  - name: Observability (Datadog, Pendo)
     level: 99
-    type: Frontend Tooling & Infrastructure
+    type: Tooling & DevOps
   - name: Cursor
     level: 99
     type: AI-Assisted Development
@@ -172,7 +172,7 @@ skills:
 projects:
   - name: Verse of the Day
     platform: Vite + Vue 3 / Cloudflare Worker / Node.js
-    description: Built a developer tooling project that generates structured PDF resumes using Vue 3, Vite, Puppeteer, and LESS.
+    description: Built and deployed a Vue 3 application backed by a Cloudflare Worker and Node.js Web Push service, delivering daily dynamic content with subscription-based push notifications.
     url: https://verse.douggainey.com
   - name: Magic Resume Generator
     platform: Vite + Vue 3
