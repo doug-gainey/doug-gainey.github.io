@@ -27,7 +27,7 @@
         <a href="https://github.com/doug-gainey/magic-resume-generator" target="_blank">Github Repo</a>
       </p>
     </section>
-    <section>
+    <!-- <section>
       <h3>Net Worth Tool</h3>
       <p>
         This is a serverless tool for tracking personal net worth with JavaScript, IndexedDB, Bootstrap and Chart JS.
@@ -37,7 +37,7 @@
       <p>
         <a href="https://github.com/doug-gainey/net-worth-tool" target="_blank">Github Repo</a>
       </p>
-    </section>
+    </section> -->
   </div>
 </template>
 <script setup lang="ts">
