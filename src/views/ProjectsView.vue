@@ -3,7 +3,7 @@
     <h2>My Projects</h2>
     <section>
       <h3>You Bible Verse</h3>
-      <p>Developed a Nuxt / Vue / Vite / Vuetify app to display a daily Bible verse on a beautiful background photo. It includes options to select a preferred translation, read the full chapter, navigate to previous days, and setup daily notifications. I built a Cloudflare worker and a Web Push service to handle subscriptions and daily notifications.</p>
+      <p>Developed a Nuxt/Vue app to display a daily Bible verse on a beautiful background photo. It includes options to select a preferred translation, read the full chapter, navigate to previous days, and setup daily notifications. I built a Cloudflare worker and a Web Push service to handle subscriptions and daily notifications.</p>
       <p><a href="https://youbibleverse.com" target="_blank">Website</a><br /></p>
     </section>
     <section>
