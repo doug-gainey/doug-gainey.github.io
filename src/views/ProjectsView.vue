@@ -3,26 +3,17 @@
     <h2>My Projects</h2>
     <section>
       <h3>You Bible Verse</h3>
-      <p>
-        This is a Vite + Vue 3 / Vuetify app I built to display a daily Bible verse on a
-        unique background photo. It includes the ability to choose from a list of
-        translations, and provides an option to read the full chapter.  I also built a Cloudflare
-        worker and a Web Push service to handle subscriptions and daily push notifications.
-      </p>
-      <p>
-        <a href="https://youbibleverse.com" target="_blank">Website</a><br/>
-      </p>
+      <p>Developed a Nuxt / Vue / Vite / Vuetify app to display a daily Bible verse on a beautiful background photo. It includes options to select a preferred translation, read the full chapter, navigate to previous days, and setup daily notifications. I built a Cloudflare worker and a Web Push service to handle subscriptions and daily notifications.</p>
+      <p><a href="https://youbibleverse.com" target="_blank">Website</a><br /></p>
     </section>
     <section>
       <h3>Magic Resume Generator</h3>
       <p>
-        I built this resume generator with Vite, Vue 3, Puppeteer, and LESS, and used it to generate my
-          <a href="https://resume-generator.douggainey.com/assets/pdf/resume.pdf" target="_blank"
-             download="Douglas Gainey - Resume.pdf">personal resume</a>. It imports resume
-        data in YAML or JSON format and generates multiple resume variations.
+        Built a resume generator with Vite, Vue 3, Puppeteer, and LESS, and used it to generate my
+        <a href="https://resume-generator.douggainey.com/assets/pdf/resume.pdf" target="_blank" download="Douglas Gainey - Resume.pdf">personal resume</a>. It imports resume data in YAML or JSON format and generates multiple resume variations.
       </p>
       <p>
-        <a href="https://resume-generator.douggainey.com" target="_blank">Website</a><br/>
+        <a href="https://resume-generator.douggainey.com" target="_blank">Website</a><br />
         <a href="https://github.com/doug-gainey/magic-resume-generator" target="_blank">Github Repo</a>
       </p>
     </section>
@@ -39,5 +30,4 @@
     </section> -->
   </div>
 </template>
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
