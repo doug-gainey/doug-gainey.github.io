@@ -25,14 +25,15 @@ experience:
     position: Enterprise Front-End Architect
     timePeriod: Sep 2022 - Feb 2026
     description:
-      - Served as highest-level frontend technical authority across 10+ engineering teams and 8+ enterprise SaaS products, establishing UI architecture standards influencing 30+ engineers organization-wide.
-      - Established shared component strategy and design system foundations adopted across 8+ products, preventing redundant UI implementations and significantly improving cross-product consistency.
-      - Architected a global, framework-agnostic Web Components platform, enabling reusable functionality across multiple technical stacks (Vue, Angular, React) and eliminating duplicated feature builds.
-      - Led organization-wide modernization initiatives, including Vue 2 → Vue 3 migration, delivering reusable upgrade frameworks that allowed teams to modernize in parallel without disrupting active release cycles.
-      - Defined and executed multi-year frontend platform roadmap, aligning modernization with active release cycles and preventing disruption across 8+ revenue-generating products.
-      - Engineered reusable AI-powered components leveraging OpenAI APIs and introduced AI-assisted development workflows (Cursor, Cody, Amp) to accelerate delivery and improve architectural consistency.
-      - Partnered cross-functionally to mitigate architectural risk, reduce regression exposure during modernization, and unblock delivery bottlenecks across product teams.
-      - Mentored senior engineers while remaining hands-on in architectural reference implementations and high-impact code paths.
+      - Served as highest-level frontend technical authority across 10+ engineering teams and 8+ enterprise SaaS applications, defining architecture standards and driving modernization efforts across a large-scale .NET-based enterprise environment.
+      - Led modernization of legacy enterprise applications integrating .NET backend services with modern frontend architectures, improving maintainability and long-term scalability.
+      - Defined and implemented shared UI architecture and design system standards across multiple products, reducing duplicated development effort and improving consistency.
+      - Architected a framework-agnostic Web Components platform enabling reusable UI capabilities across Vue, Angular, and React-based systems.
+      - Partnered with .NET backend teams to align API design with frontend architecture, improving integration consistency and reducing rework across services.
+      - Led enterprise UI modernization initiatives (including Vue 2 → Vue 3 migration), delivering reusable upgrade frameworks and minimizing disruption to active development cycles.
+      - Established CI/CD-aligned frontend delivery practices in collaboration with DevOps teams, improving release reliability and deployment consistency.
+      - Introduced AI-assisted development workflows using tools such as Cursor and OpenAI APIs, improving developer productivity and accelerating delivery.
+      - Mentored senior engineers and technical leads while remaining hands-on in architectural design and implementation.
     url: http://www.acstechnologies.com/
 
   - company: ACS Technologies, Inc.
@@ -137,10 +138,10 @@ skills:
   - name: Legacy system modernization
     level: 99
     type: Modernization & Platform Engineering
-  - name: Design systems
+  - name: design systems
     level: 99
     type: Modernization & Platform Engineering
-  - name: Component libraries
+  - name: component libraries
     level: 99
     type: Modernization & Platform Engineering
   - name: Web Components
@@ -152,13 +153,13 @@ skills:
   - name: CI/CD pipelines (GitHub Actions, Jenkins)
     level: 99
     type: Cloud & DevOps Practices
-  - name: Observability
+  - name: cbservability
     level: 99
     type: Cloud & DevOps Practices
-  - name: automated deployments
+  - name: deployment automation
     level: 99
     type: Cloud & DevOps Practices
-  - name: application delivery workflows
+  - name: modern software delivery workflows
     level: 99
     type: Cloud & DevOps Practices
   - name: Cursor
@@ -186,6 +187,9 @@ skills:
     level: 99
     type: Technical Leadership
   - name: code quality standards
+    level: 99
+    type: Technical Leadership
+  - name: technical decision making
     level: 99
     type: Technical Leadership
 
