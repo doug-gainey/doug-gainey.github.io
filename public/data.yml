@@ -35,6 +35,7 @@ experience:
       - Introduced AI-assisted development workflows using tools such as Cursor and OpenAI APIs, improving developer productivity and accelerating delivery.
       - Mentored senior engineers and technical leads while remaining hands-on in architectural design and implementation.
     url: http://www.acstechnologies.com/
+    breakAfter: true
 
   - company: ACS Technologies, Inc.
     position: Architect Lead
@@ -45,7 +46,6 @@ experience:
       - Served as company-wide escalation point for complex frontend architectural challenges, resolving high-impact technical blockers affecting multiple teams.
       - Provided architectural guidance and structured technical training that reduced recurring frontend defects and improved cross-team implementation consistency.
     url: http://www.acstechnologies.com/
-    breakAfter: true
 
   - company: ACS Technologies, Inc.
     position: Principal Software Engineer
