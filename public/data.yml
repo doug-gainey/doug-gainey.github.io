@@ -2,7 +2,7 @@ name:
   first: Douglas
   last: Gainey
 
-position: Principal Frontend Engineer
+position: Principal Software Engineer
 
 location: Florence, SC
 
@@ -17,7 +17,8 @@ contact:
 
 picture: https://douggainey.com/headshot.jpg
 
-about: Principal-level Frontend Engineer with 20+ years of experience designing, modernizing, and scaling enterprise web platforms. Served as the highest-level frontend technical leader at ACS Technologies, defining architectural standards across 10+ engineering teams and 8+ enterprise applications. Deep expertise in Vue.js, TypeScript, design systems, and frontend platform engineering. Hands-on individual contributor focused on scalable systems, modernization initiatives, cross-team technical leadership, and long-term maintainability.
+about: Principal Software Engineer with 20+ years of experience designing, modernizing, and scaling enterprise applications across .NET and frontend platforms. Deep expertise in C#, ASP.NET, SQL Server, and frontend architecture, with a strong focus on system modernization, design systems, and platform engineering.
+  Proven technical leader with experience driving cross-team architecture initiatives, migrating legacy enterprise systems to modern frameworks, and improving engineering velocity through CI/CD practices and AI-assisted development tools. Hands-on engineer who partners closely with product, design, and engineering teams to deliver scalable, maintainable software systems.
 
 experience:
   - company: ACS Technologies, Inc.
@@ -109,63 +110,84 @@ education:
     url: http://www.fmarion.edu/computerscience/
 
 skills:
-  - name: Vue.js (2 → 3)
-    level: 99
-    type: Frontend Architecture & Platform Engineering
-  - name: TypeScript
-    level: 99
-    type: Frontend Architecture & Platform Engineering
-  - name: Design Systems
-    level: 99
-    type: Frontend Architecture & Platform Engineering
-  - name: Component Libraries
-    level: 99
-    type: Frontend Architecture & Platform Engineering
-  - name: Web Components
-    level: 99
-    type: Frontend Architecture & Platform Engineering
-  - name: Cross-Team Architecture Governance
-    level: 99
-    type: Technical Leadership
-  - name: Frontend Modernization
-    level: 99
-    type: Technical Leadership
-  - name: Hands-On Mentorship
-    level: 99
-    type: Technical Leadership
-  - name: .NET Core
-    level: 99
-    type: Backend & Data
   - name: C#
     level: 99
-    type: Backend & Data
-  - name: SQL Server
+    type: Full-Stack Engineering & Architecture
+  - name: ASP.NET Core
     level: 99
-    type: Backend & Data
+    type: Full-Stack Engineering & Architecture
   - name: REST APIs
     level: 99
-    type: Backend & Data
-  - name: Vite
+    type: Full-Stack Engineering & Architecture
+  - name: SQL Server
     level: 99
-    type: Tooling & DevOps
-  - name: Node.js / npm
+    type: Full-Stack Engineering & Architecture
+  - name: Vue.js
     level: 99
-    type: Tooling & DevOps
-  - name: CI/CD (GitHub Actions, Jenkins)
+    type: Full-Stack Engineering & Architecture
+  - name: JavaScript
     level: 99
-    type: Tooling & DevOps
-  - name: Observability (Datadog, Pendo)
+    type: Full-Stack Engineering & Architecture
+  - name: TypeScript
     level: 99
-    type: Tooling & DevOps
+    type: Full-Stack Engineering & Architecture
+  - name: React (conceptual exposure)
+    level: 99
+    type: Full-Stack Engineering & Architecture
+  - name: Legacy system modernization
+    level: 99
+    type: Modernization & Platform Engineering
+  - name: Design systems
+    level: 99
+    type: Modernization & Platform Engineering
+  - name: Component libraries
+    level: 99
+    type: Modernization & Platform Engineering
+  - name: Web Components
+    level: 99
+    type: Modernization & Platform Engineering
+  - name: API-first architecture
+    level: 99
+    type: Modernization & Platform Engineering
+  - name: CI/CD pipelines (GitHub Actions, Jenkins)
+    level: 99
+    type: Cloud & DevOps Practices
+  - name: Observability
+    level: 99
+    type: Cloud & DevOps Practices
+  - name: automated deployments
+    level: 99
+    type: Cloud & DevOps Practices
+  - name: application delivery workflows
+    level: 99
+    type: Cloud & DevOps Practices
   - name: Cursor
     level: 99
-    type: AI-Assisted Development
+    type: AI-Assisted Development & Engineering
+  - name: Claude
+    level: 99
+    type: AI-Assisted Development & Engineering
   - name: Amp
     level: 99
-    type: AI-Assisted Development
-  - name: Cody
+    type: AI-Assisted Development & Engineering
+  - name: OpenAI API integration
     level: 99
-    type: AI-Assisted Development
+    type: AI-Assisted Development & Engineering
+  - name: developer productivity tooling
+    level: 99
+    type: AI-Assisted Development & Engineering
+  - name: Cross-team architecture governance
+    level: 99
+    type: Technical Leadership
+  - name: mentoring engineers
+    level: 99
+    type: Technical Leadership
+  - name: system design
+    level: 99
+    type: Technical Leadership
+  - name: code quality standards
+    level: 99
+    type: Technical Leadership
 
 #knowledge: I also have a sweet boat and could take you fishing! :)
 
