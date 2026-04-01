@@ -1,8 +1,8 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-import GithubIcon from '@/components/icons/GithubIcon.vue'
-import LinkedInIcon from '@/components/icons/LinkedInIcon.vue'
+import { RouterLink, RouterView } from 'vue-router';
+import HelloWorld from './components/HelloWorld.vue';
+import GithubIcon from '@/components/icons/GithubIcon.vue';
+import LinkedInIcon from '@/components/icons/LinkedInIcon.vue';
 </script>
 
 <template>
@@ -31,8 +31,9 @@ import LinkedInIcon from '@/components/icons/LinkedInIcon.vue'
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/about">About</RouterLink>
           <RouterLink to="/projects">Projects</RouterLink>
-          <a href="https://resume-generator.douggainey.com/assets/pdf/resume.pdf" target="_blank"
-             download="Douglas Gainey - Resume.pdf">Resume</a>
+          <v-tooltip text="This is a general overview of my experience. I tailor my resume for specific roles and teams." location="top">
+            <a href="https://resume-generator.douggainey.com/assets/pdf/resume.pdf" target="_blank" download="Douglas Gainey - Resume.pdf">Resume</a>
+          </v-tooltip>
         </nav>
       </div>
     </div>
@@ -40,9 +41,7 @@ import LinkedInIcon from '@/components/icons/LinkedInIcon.vue'
   <main>
     <RouterView />
   </main>
-  <footer>
-    Copyright &copy; {{ (new Date()).getFullYear() }} Doug Gainey
-  </footer>
+  <footer>Copyright &copy; {{ new Date().getFullYear() }} Doug Gainey</footer>
 </template>
 
 <style lang="less">
