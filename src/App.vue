@@ -32,7 +32,7 @@ import LinkedInIcon from '@/components/icons/LinkedInIcon.vue';
           <RouterLink to="/about">About</RouterLink>
           <RouterLink to="/projects">Projects</RouterLink>
           <v-tooltip text="This is a general overview of my experience. I tailor my resume for specific roles and teams." location="top">
-            <a href="https://resume-generator.douggainey.com/assets/pdf/resume.pdf" target="_blank" download="Douglas Gainey - Resume.pdf">Resume</a>
+            <a href="/Douglas_Gainey_Resume.pdf" target="_blank" download="Douglas_Gainey_Resume.pdf">Resume</a>
           </v-tooltip>
         </nav>
       </div>
