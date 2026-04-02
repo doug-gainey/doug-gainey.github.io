@@ -1,26 +1,29 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router';
+import { RouterLink, RouterView, useRoute } from 'vue-router';
 import HelloWorld from './components/HelloWorld.vue';
 import GithubIcon from '@/components/icons/GithubIcon.vue';
 import LinkedInIcon from '@/components/icons/LinkedInIcon.vue';
+
+const route = useRoute();
 </script>
 
 <template>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <header>
     <div class="wrapper">
       <div class="flex flex--column flex--gapped">
         <img class="headshot" src="/headshot.jpg" alt="headshot" />
         <div class="contact-icons flex flex--gapped flex--centered">
-          <a href="http://linkedin.com/in/doug-gainey" target="_blank" title="LinkedIn Profile">
+          <a href="http://linkedin.com/in/doug-gainey" target="_blank" rel="noopener" aria-label="Visit Doug Gainey on LinkedIn (opens in new window)">
             <linked-in-icon></linked-in-icon>
           </a>
 
-          <a href="http://github.com/doug-gainey" target="_blank" title="Github Profile">
+          <a href="http://github.com/doug-gainey" target="_blank" rel="noopener" aria-label="Visit Doug Gainey on GitHub (opens in new window)">
             <github-icon></github-icon>
           </a>
 
-          <a href="mailto:douggainey@gmail.com" target="_blank" title="Email">
-            <i class="material-icons md-mail"></i>
+          <a href="mailto:douggainey@gmail.com" aria-label="Send email to Doug Gainey">
+            <i class="material-icons md-mail" aria-hidden="true"></i>
           </a>
         </div>
       </div>
@@ -28,15 +31,15 @@ import LinkedInIcon from '@/components/icons/LinkedInIcon.vue';
         <HelloWorld msg="Hello World!" />
 
         <nav>
-          <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/about">About</RouterLink>
-          <RouterLink to="/projects">Projects</RouterLink>
-          <a href="/Douglas_Gainey_Resume.pdf" target="_blank" download="Douglas_Gainey_Resume.pdf">Resume</a>
+          <RouterLink to="/" :aria-current="route.path === '/' ? 'page' : undefined">Home</RouterLink>
+          <RouterLink to="/about" :aria-current="route.path === '/about' ? 'page' : undefined">About</RouterLink>
+          <RouterLink to="/projects" :aria-current="route.path === '/projects' ? 'page' : undefined">Projects</RouterLink>
+          <a href="/Douglas_Gainey_Resume.pdf" target="_blank" rel="noopener" aria-label="Download resume as PDF (opens in new window)" download="Douglas_Gainey_Resume.pdf">Resume</a>
         </nav>
       </div>
     </div>
   </header>
-  <main>
+  <main id="main-content">
     <RouterView />
   </main>
   <footer>Copyright &copy; {{ new Date().getFullYear() }} Doug Gainey</footer>
@@ -44,6 +47,21 @@ import LinkedInIcon from '@/components/icons/LinkedInIcon.vue';
 
 <style lang="less">
 @import '@material-icons/font/css/all.css';
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--color-brand);
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  text-decoration: none;
+
+  &:focus {
+    top: 0;
+  }
+}
 
 header {
   line-height: 1.5;
