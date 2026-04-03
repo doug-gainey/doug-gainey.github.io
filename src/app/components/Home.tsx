@@ -102,7 +102,10 @@ export function Home() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-200 border border-border">
-              <div className="w-14 h-14 bg-accent rounded-lg flex items-center justify-center mb-6">
+              <div
+                className="w-14 h-14 bg-accent rounded-lg flex items-center justify-center mb-6"
+                aria-hidden="true"
+              >
                 <span className="text-3xl">🖥️</span>
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">
@@ -116,7 +119,10 @@ export function Home() {
             </div>
 
             <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-200 border border-border">
-              <div className="w-14 h-14 bg-accent rounded-lg flex items-center justify-center mb-6">
+              <div
+                className="w-14 h-14 bg-accent rounded-lg flex items-center justify-center mb-6"
+                aria-hidden="true"
+              >
                 <span className="text-3xl">🎨</span>
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">
@@ -130,7 +136,10 @@ export function Home() {
             </div>
 
             <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-200 border border-border">
-              <div className="w-14 h-14 bg-accent rounded-lg flex items-center justify-center mb-6">
+              <div
+                className="w-14 h-14 bg-accent rounded-lg flex items-center justify-center mb-6"
+                aria-hidden="true"
+              >
                 <span className="text-3xl">🛠️</span>
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">

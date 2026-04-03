@@ -154,8 +154,9 @@ export function Portfolio() {
                     <a
                       target="_blank"
                       href={project.liveUrl}
+                      rel="noopener noreferrer"
                       className="flex items-center gap-2 text-primary hover:underline font-semibold transition-colors"
-                      aria-label={`View ${project.title} live demo`}
+                      aria-label={`View ${project.title} live demo (opens in new window)`}
                     >
                       <ExternalLink size={18} />
                       Live Demo
@@ -165,8 +166,9 @@ export function Portfolio() {
                     <a
                       target="_blank"
                       href={project.githubUrl}
+                      rel="noopener noreferrer"
                       className="flex items-center gap-2 text-muted-foreground hover:text-foreground font-semibold transition-colors"
-                      aria-label={`View ${project.title} code on GitHub`}
+                      aria-label={`View ${project.title} code on GitHub (opens in new window)`}
                     >
                       <Github size={18} />
                       Code
@@ -176,8 +178,9 @@ export function Portfolio() {
                     <a
                       target="_blank"
                       href={project.documentationUrl}
+                      rel="noopener noreferrer"
                       className="flex items-center gap-2 text-muted-foreground hover:text-foreground font-semibold transition-colors"
-                      aria-label={`View ${project.title} documentation on GitHub`}
+                      aria-label={`View ${project.title} documentation on GitHub (opens in new window)`}
                     >
                       <Github size={18} />
                       Documentation
