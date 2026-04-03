@@ -22,17 +22,17 @@ about: Principal-level Software Engineer with 20+ years of experience building a
 
 skills:
   - type: Full Stack Development
-    name: .NET Core / ASP.NET, C#, SQL Server, REST APIs
+    name: .NET Core / ASP.NET, C#, SQL Server, Nuxt, Cloudflare Workers, Node.js, Express, REST APIs
   - type: Frontend Engineering
-    name: Vue.js (2 → 3), TypeScript, Component Architecture, State Management, API Integration
+    name: Vue.js, React, TypeScript, Component Architecture, State Management, API Integration
   - type: Design Systems & UI Platforms
-    name: Component Libraries, Design Systems, Web Components, Documentation & Developer ExperienceComponent Libraries, Design Systems, Web Components, Documentation & Developer Experience
+    name: Component Libraries, Design Systems, Web Components, Documentation & Developer Experience
   - type: Technical Leadership
     name: Architecture Guidance, Mentorship, Code Reviews, Cross-Team Collaboration
   - type: Tooling & DevOps
     name: Vite, Node.js / npm, CI/CD (GitHub Actions, Jenkins), Observability (Datadog, Pendo)
   - type: AI Integration
-    name: OpenAI APIs, AI-Assisted workflows (Cursor, Claude, GitHub Copilot, Amp)
+    name: OpenAI APIs, AI-Assisted workflows (GitHub Copilot, Cursor, Claude)
 
 experience:
   - company: ACS Technologies, Inc.
