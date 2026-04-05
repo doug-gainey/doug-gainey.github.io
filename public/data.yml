@@ -24,16 +24,22 @@ about:
 skills:
   - type: Full Stack Development
     name: .NET Core / ASP.NET, C#, SQL Server, Nuxt, Cloudflare Workers, Node.js, Express, REST APIs
+    level: 95
   - type: Frontend Engineering
     name: Vue.js, React, TypeScript, Component Architecture, State Management, API Integration
+    level: 99
   - type: Design Systems & UI Platforms
     name: Component Libraries, Design Systems, Web Components, Documentation & Developer Experience
+    level: 99
   - type: Technical Leadership
     name: Architecture Guidance, Mentorship, Code Reviews, Cross-Team Collaboration
+    level: 95
   - type: Tooling & DevOps
     name: Vite, Node.js / npm, CI/CD (GitHub Actions, Jenkins), Observability (Datadog, Pendo)
+    level: 95
   - type: AI Integration
     name: OpenAI APIs, AI-Assisted workflows (GitHub Copilot, Cursor, Claude)
+    level: 95
 
 experience:
   - company: ACS Technologies, Inc.
