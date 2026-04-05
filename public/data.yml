@@ -15,10 +15,11 @@ contact:
   linkedin: doug-gainey
   github: doug-gainey
 
-picture: https://douggainey.com/headshot.jpg
+picture: https://douggainey.com/headshot.png
 
-about: Principal-level Software Engineer with 20+ years of experience building and modernizing enterprise web applications across full-stack environments. Strong background in .NET-based systems combined with deep expertise in frontend architecture, design systems, and scalable UI platforms.
-  Experienced working across teams to deliver maintainable, user-centered applications while remaining hands-on in development, prototyping, and system design. Known for bridging gaps between architecture and implementation, enabling teams to build consistent, scalable software at speed. Comfortable working across the stack, with a focus on building well-structured systems that connect backend services with intuitive, user-centered interfaces.
+about:
+  - Principal-level Software Engineer with 20+ years of experience building and modernizing enterprise web applications across full-stack environments. Strong background in .NET-based systems combined with deep expertise in frontend architecture, design systems, and scalable UI platforms.
+  - Experienced working across teams to deliver maintainable, user-centered applications while remaining hands-on in development, prototyping, and system design. Known for bridging gaps between architecture and implementation, enabling teams to build consistent, scalable software at speed. Comfortable working across the stack, with a focus on building well-structured systems that connect backend services with intuitive, user-centered interfaces.
 
 skills:
   - type: Full Stack Development
