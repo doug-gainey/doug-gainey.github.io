@@ -1,20 +1,19 @@
 import { Link } from "react-router";
 import { Github, Linkedin, Mail, ArrowRight } from "lucide-react";
 import { ImageWithFallback } from "./ImageWithFallback";
-import profileImage from "@/assets/images/profile-image.png";
 
 export function Home() {
   return (
     <div className="min-h-[calc(100vh-4rem)]">
       {/* Hero Section */}
-      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-32">
         <div className="text-center space-y-8">
           {/* Profile Image */}
           <div className="flex justify-center mb-8">
             <div className="w-32 h-32 rounded-full overflow-hidden shadow-xl border-4 border-primary">
               <ImageWithFallback
-                src={profileImage}
-                alt="Software Engineer"
+                src="/personal-photo.jpg"
+                alt="Personal photo of Doug Gainey"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -88,7 +87,7 @@ export function Home() {
       </section>
 
       {/* Skills Preview */}
-      <section className="bg-muted/30 py-20">
+      <section className="bg-muted/30 py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-4">

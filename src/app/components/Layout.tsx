@@ -62,9 +62,7 @@ export function Layout() {
                   DG
                 </span>
               </div>
-              <span className="font-semibold text-foreground hidden sm:block">
-                Doug Gainey
-              </span>
+              <span className="font-semibold text-foreground">Doug Gainey</span>
             </Link>
 
             {/* Desktop Navigation */}

@@ -1,12 +1,11 @@
 import { Code, Heart, Lightbulb, Rocket } from "lucide-react";
 import { ImageWithFallback } from "./ImageWithFallback";
-import profileImage from "@/assets/images/profile-image.png";
 
 export function About() {
   return (
     <div className="min-h-[calc(100vh-4rem)]">
       {/* Header */}
-      <section className="bg-primary text-primary-foreground py-20">
+      <section className="bg-primary text-primary-foreground py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">About Me</h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 leading-relaxed">
@@ -23,8 +22,8 @@ export function About() {
             <div className="flex-shrink-0">
               <div className="w-32 h-32 md:w-64 md:h-64 rounded-2xl overflow-hidden shadow-lg">
                 <ImageWithFallback
-                  src={profileImage}
-                  alt="Professional portrait"
+                  src="/personal-photo.jpg"
+                  alt="Personal photo of Doug Gainey"
                   className="w-full h-full object-cover"
                 />
               </div>

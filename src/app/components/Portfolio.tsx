@@ -109,7 +109,7 @@ export function Portfolio() {
   return (
     <div className="min-h-[calc(100vh-4rem)]">
       {/* Header */}
-      <section className="bg-primary text-primary-foreground py-20">
+      <section className="bg-primary text-primary-foreground py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">My Portfolio</h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 leading-relaxed max-w-3xl">
