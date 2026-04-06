@@ -1,3 +1,4 @@
+import React from "react";
 import { ExternalLink, Github } from "lucide-react";
 import { ImageWithFallback } from "./ImageWithFallback";
 import personalWebsiteImageLight from "@/assets/images/personal-website-light.png";
@@ -96,6 +97,14 @@ const projects = [
   },
 ];
 
+function ShowcaseImage({ href, target, children, ...rest }) {
+  return React.createElement(
+    href ? "a" : "div",
+    href ? { href, target, ...rest } : rest,
+    children,
+  );
+}
+
 export function Portfolio() {
   return (
     <div className="min-h-[calc(100vh-4rem)]">
@@ -119,13 +128,17 @@ export function Portfolio() {
               className="bg-card rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group border border-border"
             >
               {/* Project Image */}
-              <div className="bg-muted h-48 overflow-hidden">
+              <ShowcaseImage
+                href={project.liveUrl}
+                target="_blank"
+                className="bg-muted h-48 block overflow-hidden"
+              >
                 <ImageWithFallback
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-              </div>
+              </ShowcaseImage>
 
               {/* Project Details */}
               <div className="p-6 space-y-4">
