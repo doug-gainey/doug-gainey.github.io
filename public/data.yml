@@ -23,7 +23,7 @@ about:
 
 skills:
   - type: Full Stack Development
-    skill:
+    skills:
       - .NET Core / ASP.NET
       - C#
       - SQL Server
@@ -33,7 +33,7 @@ skills:
       - Express
       - REST APIs
   - type: Frontend Engineering
-    skill:
+    skills:
       - Vue.js
       - React
       - TypeScript
@@ -41,25 +41,25 @@ skills:
       - State Management
       - API Integration
   - type: Design Systems & UI Platforms
-    skill:
+    skills:
       - Component Libraries
       - Design Systems
       - Web Components
       - Documentation & Developer Experience
   - type: Technical Leadership
-    skill:
+    skills:
       - Architecture Guidance
       - Mentorship
       - Code Reviews
       - Cross-Team Collaboration
   - type: Tooling & DevOps
-    skill:
+    skills:
       - Vite
       - Node.js / npm
       - CI/CD (GitHub Actions, Jenkins)
       - Observability (Datadog, Pendo)
   - type: AI Integration
-    skill:
+    skills:
       - OpenAI APIs
       - AI-Assisted workflows (GitHub Copilot, Cursor, Claude)
 
