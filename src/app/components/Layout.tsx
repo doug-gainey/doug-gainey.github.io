@@ -23,6 +23,10 @@ export function Layout() {
     return () => mediaQuery.removeEventListener("change", updateTheme);
   }, []);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0 });
+  }, [location.pathname]);
+
   const navItems = [
     { path: "/", label: "Home" },
     { path: "/about", label: "About" },
