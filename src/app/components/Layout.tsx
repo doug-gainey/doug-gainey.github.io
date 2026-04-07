@@ -24,6 +24,22 @@ export function Layout() {
   }, []);
 
   useEffect(() => {
+    const hash = window.location.hash; // e.g., "#/page?scrollTo=mySection"
+    const queryString = hash.split("?")[1];
+    const params = new URLSearchParams(queryString);
+    const scrollTo = params.get("scrollTo");
+
+    if (scrollTo) {
+      // Scroll to the specified section on route change
+      const element = document.getElementById(scrollTo);
+
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+        return;
+      }
+    }
+
+    // Scroll to top on route change if no specific section is requested (or if the section is not found)
     window.scrollTo({ top: 0, left: 0 });
   }, [location.pathname]);
 

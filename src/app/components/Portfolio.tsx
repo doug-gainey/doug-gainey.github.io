@@ -266,6 +266,7 @@ export function Portfolio() {
             </div>
           ))}
         </div>
+        <a id="personal-projects"></a>
       </section>
 
       {/* Personal Projects */}

@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { Code, Heart, Lightbulb, Rocket } from "lucide-react";
 import { ImageWithFallback } from "./ImageWithFallback";
 
@@ -73,9 +74,17 @@ export function About() {
               was the most useful.
             </p>
             <p>
-              When I'm not working, I enjoy exploring new technologies on
-              personal projects, spending time with family, and getting offshore
-              whenever I can to fish.
+              <span>
+                When I'm not working, I enjoy exploring new technologies on{" "}
+              </span>
+              <Link
+                to="/portfolio?scrollTo=personal-projects"
+                className="text-emerald-500 hover:text-emerald-700 hover:underline"
+              >
+                personal projects
+              </Link>
+              , spending time with family, and getting offshore whenever I can
+              to fish.
             </p>
           </div>
         </div>
