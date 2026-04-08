@@ -2,7 +2,7 @@ name:
   first: Douglas
   last: Gainey
 
-position: Principal Software Engineer | Frontend Architecture & Design Systems
+position: Principal Software Engineer | Full-Stack & Frontend Architecture
 
 location: Florence, SC
 
@@ -18,21 +18,46 @@ contact:
 picture: https://douggainey.com/personal-photo.jpg
 
 about:
-  - Principal-level Frontend Engineer with 20+ years of experience designing, modernizing, and scaling enterprise web platforms. Served as the highest-level frontend technical leader at ACS Technologies, defining architectural standards across 10+ engineering teams and 8+ enterprise applications. Deep expertise in Vue.js, TypeScript, design systems, and frontend platform engineering. Hands-on individual contributor focused on scalable systems, modernization initiatives, cross-team technical leadership, and long-term maintainability.
+  - Principal-level Software Engineer with 20+ years of experience building and modernizing enterprise web applications across full-stack environments. Strong background in .NET-based systems combined with deep expertise in frontend architecture, design systems, and scalable UI platforms.
+  - Experienced working across teams to deliver maintainable, user-centered applications while remaining hands-on in development, prototyping, and system design. Known for bridging gaps between architecture and implementation, enabling teams to build consistent, scalable software at speed. Comfortable working across the stack, with a focus on building well-structured systems that connect backend services with intuitive, user-centered interfaces.
 
 skills:
-  - type: Frontend Architecture & Platform Engineering
+  - type: Full Stack Development
     skills:
-      - TypeScript, Vue.js (2 → 3), React, Design Systems, Component Libraries, Web Components
-  - type: Technical Leadship
+      - .NET Core / ASP.NET
+      - C#
+      - SQL Server
+      - Nuxt
+      - Cloudflare Workers
+      - Node.js
+      - Express
+      - REST APIs
+  - type: Frontend Engineering
     skills:
-      - Cross-Team Architecture Governance, Frontend Modernization, Hands-On Mentorship
-  - type: Backend & Data
+      - Vue.js
+      - React
+      - TypeScript
+      - Component Architecture
+      - State Management
+      - API Integration
+  - type: Design Systems & UI Platforms
     skills:
-      - .NET Core, C#, SQL Server, REST APIs
+      - Component Libraries
+      - Design Systems
+      - Web Components
+      - Documentation & Developer Experience
+  - type: Technical Leadership
+    skills:
+      - Architecture Guidance
+      - Mentorship
+      - Code Reviews
+      - Cross-Team Collaboration
   - type: Tooling & DevOps
     skills:
-      - Vite, Node.js / npm, CI/CD (GitHub Actions, Jenkins), Observability (Datadog, Pendo)
+      - Vite
+      - Node.js / npm
+      - CI/CD (GitHub Actions, Jenkins)
+      - Observability (Datadog, Pendo)
   - type: AI Integration
     skills:
       - OpenAI APIs
@@ -43,20 +68,19 @@ experience:
     position: Enterprise Front-End Architect
     timePeriod: Sep 2022 - Feb 2026
     description:
-      - Served as highest-level frontend technical authority across 10+ engineering teams and 8+ enterprise SaaS products, establishing UI architecture standards influencing 30+ engineers organization-wide.
-      - Established shared component strategy and design system foundations adopted across 8+ products, preventing redundant UI implementations and significantly improving cross-product consistency.
-      - Architected a global, framework-agnostic Web Components platform, enabling reusable functionality across
-        multiple technical stacks (Vue, Angular, React) and eliminating duplicated feature builds.
-      - Led organization-wide modernization initiatives, including Vue 2 → Vue 3 migration, delivering reusable
-        upgrade frameworks that allowed teams to modernize in parallel without disrupting active release cycles.
-      - Defined and executed multi-year frontend platform roadmap, aligning modernization with active release
-        cycles and preventing disruption across 8+ revenue-generating products.
-      - Engineered reusable AI-powered components leveraging OpenAI APIs and introduced AI-assisted
-        development workflows (Cursor, Cody, Amp) to accelerate delivery and improve architectural consistency.
-      - Partnered cross-functionally to mitigate architectural risk, reduce regression exposure during modernization,
-        and unblock delivery bottlenecks across product teams.
-      - Mentored senior engineers while remaining hands-on in architectural reference implementations and high impact code paths.
+      - Served as a senior frontend engineer across 10+ engineering teams and 8+ SaaS applications, contributing directly to the design and implementation of scalable, component-driven UI systems within a large-scale .NET ecosystem.
+      - Built and evolved shared component systems and design system foundations, improving consistency and usability across multiple applications
+      - Collaborated with product managers, designers, and backend engineers to deliver intuitive, maintainable user interfaces for complex workflows
+      - Developed a framework-agnostic Web Components platform enabling reusable UI patterns across Vue, Angular, and React applications
+      - Integrated frontend systems with REST APIs and asynchronous data flows to support reliable, performant user experiences
+      - Led modernization initiatives including Vue 2 → Vue 3 migration, creating reusable upgrade patterns that enabled incremental adoption
+      - Identified and reduced technical debt, improving performance, stability, and developer efficiency
+      - Implemented AI-powered components and explored LLM-driven features to enhance user workflows
+      - Promoted accessibility and usability best practices within shared UI components
+      - Mentored engineers through code reviews, pairing, and architectural guidance while remaining actively hands-on
+      - Contributed to backend integration patterns and API design within a .NET ecosystem, ensuring alignment between frontend architecture and service-layer capabilities.
     url: http://www.acstechnologies.com/
+    breakAfter: true
 
   - company: ACS Technologies, Inc.
     position: Architect Lead
@@ -67,7 +91,6 @@ experience:
       - Acted as escalation point for complex frontend challenges, resolving cross-team technical blockers
       - Provided mentorship and training that improved consistency and quality across engineering teams
     url: http://www.acstechnologies.com/
-    breakAfter: true
 
   - company: ACS Technologies, Inc.
     position: Principal Software Engineer
