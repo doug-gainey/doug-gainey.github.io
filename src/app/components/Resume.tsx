@@ -14,7 +14,7 @@ export function Resume() {
       {/* Header */}
       <section className="bg-primary text-primary-foreground py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
+          <div className="flex flex-col items-start md:flex-row md:items-center justify-between gap-6">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Resume</h1>
               <p className="text-xl text-primary-foreground/90">
