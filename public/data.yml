@@ -26,7 +26,9 @@ skills:
     skills:
       - .NET Core / ASP.NET
       - C#
+      - PHP
       - SQL Server
+      - MySQL
       - Nuxt
       - Cloudflare Workers
       - Node.js
@@ -37,6 +39,7 @@ skills:
       - Vue.js
       - React
       - TypeScript
+      - Tailwind CSS
       - Component Architecture
       - State Management
       - API Integration
