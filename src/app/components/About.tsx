@@ -163,16 +163,22 @@ export function About() {
               Languages
             </h3>
             <div className="flex flex-wrap gap-3">
-              {["C#", "SQL", "JavaScript", "TypeScript", "HTML5", "CSS3"].map(
-                (skill) => (
-                  <span
-                    key={skill}
-                    className="px-4 py-2 bg-accent text-accent-foreground rounded-lg"
-                  >
-                    {skill}
-                  </span>
-                ),
-              )}
+              {[
+                "C#",
+                "PHP",
+                "SQL",
+                "JavaScript",
+                "TypeScript",
+                "HTML5",
+                "CSS3",
+              ].map((skill) => (
+                <span
+                  key={skill}
+                  className="px-4 py-2 bg-accent text-accent-foreground rounded-lg"
+                >
+                  {skill}
+                </span>
+              ))}
             </div>
           </div>
 
