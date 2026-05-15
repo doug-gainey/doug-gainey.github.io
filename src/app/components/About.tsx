@@ -49,12 +49,12 @@ export function About() {
             <p>
               My career started with an internship building intranet
               applications, and from there I found my way into enterprise
-              software. For most of the last 20 years, I've been at ACS
-              Technologies, building software for churches and the organizations
-              that serve them. I didn't plan to end up there, but somewhere
-              along the way it became deeply meaningful work. There's something
-              about building tools for people who are trying to do good in the
-              world that changes how you think about what you're making.
+              software. For much of my career, I've been at ACS Technologies,
+              building software for churches and the organizations that serve
+              them. I didn't plan to end up there, but somewhere along the way
+              it became deeply meaningful work. There's something about building
+              tools for people who are trying to do good in the world that
+              changes how you think about what you're making.
             </p>
             <p>
               These days, what drives me is impact and the feeling of knowing

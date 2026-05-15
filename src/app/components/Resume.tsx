@@ -64,7 +64,7 @@ export function Resume() {
 
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Principal-level Software Engineer with 20+ years of experience
+              Principal-level Software Engineer with extensive experience
               building and modernizing enterprise web applications across
               full-stack environments. Strong background in .NET-based systems
               combined with deep expertise in frontend architecture, design

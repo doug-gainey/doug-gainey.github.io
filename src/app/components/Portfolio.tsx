@@ -23,7 +23,7 @@ const professionalWork = [
     id: 1,
     title: "Realm Product",
     description:
-      "Realm is ACS Technologies' flagship church management platform, serving thousands of churches across the country. I was part of the small founding team that started building it in 2009, and over the following fifteen years I grew with the product in nearly every capacity — developer, team lead, scrum master, and architect. My work spanned the full stack, from database design and backend services to UI architecture and component development. Along the way I led several modernization efforts that kept the platform current as the web evolved, including a large-scale CSS overhaul introducing Less preprocessing and a full transition from a jQuery plugin architecture to a modern Vue.js stack.",
+      "Realm is ACS Technologies' flagship church management platform, serving thousands of churches across the country. I was part of the small founding team that started it, and in the years since I've grown with the product in nearly every capacity — developer, team lead, scrum master, and architect. My work spanned the full stack, from database design and backend services to UI architecture and component development. Along the way I led several modernization efforts that kept the platform current as the web evolved, including a large-scale CSS overhaul introducing Less preprocessing and a full transition from a jQuery plugin architecture to a modern Vue.js stack.",
     tech: ["ASP.NET MVC", "C#", "SQL Server", "Vue.js", "Less"],
     image: realmImage,
     liveUrl: "https://www.acstechnologies.com/realm",
