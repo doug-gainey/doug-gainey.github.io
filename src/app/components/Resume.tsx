@@ -107,55 +107,57 @@ export function Resume() {
               <p className="text-foreground/80 mb-3">ACS Technologies, Inc.</p>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground">
                 <li>
-                  Served as a senior frontend engineer across 10+ engineering
-                  teams and 8+ SaaS applications, contributing directly to the
-                  design and implementation of scalable, component-driven UI
-                  systems within a large-scale .NET ecosystem.
+                  Served as senior frontend technical authority across 10+
+                  engineering teams and 8+ SaaS applications, influencing the
+                  work of 30+ engineers organization-wide through architectural
+                  standards, code reviews, and hands-on implementation
                 </li>
                 <li>
-                  Built and evolved shared component systems and design system
-                  foundations, improving consistency and usability across
-                  multiple applications
+                  Built and evolved the Particle design system — 50+ components
+                  adopted across 5 teams and 15+ engineers — accelerating
+                  frontend development velocity, reducing architectural
+                  dependency on senior engineers, and improving onboarding speed
+                  for new team members
                 </li>
                 <li>
-                  Collaborated with product managers, designers, and backend
-                  engineers to deliver intuitive, maintainable user interfaces
-                  for complex workflows
+                  Developed a framework-agnostic Web Components platform that
+                  extended shared, reusable UI across 6 products spanning Vue,
+                  Angular, and React stacks — eliminating duplicated feature
+                  builds without adding framework dependencies to any consuming
+                  application
                 </li>
                 <li>
-                  Developed a framework-agnostic Web Components platform
-                  enabling reusable UI patterns across Vue, Angular, and React
-                  applications
+                  Led Vue 2 to Vue 3 migration for a flagship product spanning 5
+                  engineering teams, delivering a reusable upgrade framework
+                  that enabled incremental adoption without disrupting active
+                  release cycles
                 </li>
                 <li>
-                  Integrated frontend systems with REST APIs and asynchronous
-                  data flows to support reliable, performant user experiences
+                  Implemented AI-powered content generation features using
+                  OpenAI APIs, automating creation of group and event
+                  descriptions — reducing manual data entry for church staff and
+                  accelerating a common high-frequency workflow
                 </li>
                 <li>
-                  Led modernization initiatives including Vue 2 → Vue 3
-                  migration, creating reusable upgrade patterns that enabled
-                  incremental adoption
+                  Integrated contextual help content APIs directly within the
+                  product UI, eliminating context switching for users seeking
+                  support — including a client-side caching layer that prevented
+                  redundant API calls and improved perceived performance for
+                  returning users
                 </li>
                 <li>
-                  Identified and reduced technical debt, improving performance,
-                  stability, and developer efficiency
+                  Mentored and provided architectural guidance to 8-10 engineers
+                  through code reviews, pairing, and hands-on implementation —
+                  reducing direct dependency on senior review over time
                 </li>
                 <li>
-                  Implemented AI-powered components and explored LLM-driven
-                  features to enhance user workflows
-                </li>
-                <li>
-                  Promoted accessibility and usability best practices within
-                  shared UI components
-                </li>
-                <li>
-                  Mentored engineers through code reviews, pairing, and
-                  architectural guidance while remaining actively hands-on
+                  Promoted accessibility and usability best practices across
+                  shared UI components and design system foundations
                 </li>
                 <li>
                   Contributed to backend integration patterns and API design
                   within a .NET ecosystem, ensuring alignment between frontend
-                  architecture and service-layer capabilities.
+                  architecture and service-layer capabilities
                 </li>
               </ul>
             </div>
