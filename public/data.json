@@ -1,1 +1,160 @@
-{"name":{"first":"Douglas","last":"Gainey"},"position":"Principal Software Engineer | Full-Stack & Frontend Architecture","location":"Florence, SC","contact":{"email":"douggainey@gmail.com","phone":"843.615.8725","website":"douggainey.com","linkedin":"doug-gainey","github":"doug-gainey"},"picture":"https://douggainey.com/personal-photo.jpg","about":["Principal-level Software Engineer with extensive experience building and modernizing enterprise web applications across full-stack environments. Strong background in .NET-based systems combined with deep expertise in frontend architecture, design systems, and scalable UI platforms.","Experienced working across teams to deliver maintainable, user-centered applications while remaining hands-on in development, prototyping, and system design. Known for bridging gaps between architecture and implementation, enabling teams to build consistent, scalable software at speed. Comfortable working across the stack, with a focus on building well-structured systems that connect backend services with intuitive, user-centered interfaces."],"skills":[{"type":"Full Stack Development","skills":[".NET Core / ASP.NET","C#","PHP","SQL Server","MySQL","Nuxt","Cloudflare Workers","Node.js","Express","REST APIs"]},{"type":"Frontend Engineering","skills":["Vue.js","React","TypeScript","Tailwind CSS","Component Architecture","State Management","API Integration"]},{"type":"Design Systems & UI Platforms","skills":["Component Libraries","Design Systems","Web Components","Documentation & Developer Experience"]},{"type":"Technical Leadership","skills":["Architecture Guidance","Mentorship","Code Reviews","Cross-Team Collaboration"]},{"type":"Tooling & DevOps","skills":["Vite","Node.js / npm","CI/CD (GitHub Actions, Jenkins)","Observability (Datadog, Pendo)"]},{"type":"AI Integration","skills":["OpenAI APIs","AI-Assisted workflows (GitHub Copilot, Cursor, Claude)"]}],"experience":[{"company":"ACS Technologies, Inc.","position":"Enterprise Front-End Architect","timePeriod":"Sep 2022 - Feb 2026","description":["Served as senior frontend technical authority across 10+ engineering teams and 8+ SaaS applications, influencing the work of 30+ engineers organization-wide through architectural standards, code reviews, and hands-on implementation","Built and evolved the Particle design system — 50+ components adopted across 5 teams and 15+ engineers — accelerating frontend development velocity, reducing architectural dependency on senior engineers, and improving onboarding speed for new team members","Developed a framework-agnostic Web Components platform that extended shared, reusable UI across 6 products spanning Vue, Angular, and React stacks — eliminating duplicated feature builds without adding framework dependencies to any consuming application","Led Vue 2 to Vue 3 migration for a flagship product spanning 5 engineering teams, delivering a reusable upgrade framework that enabled incremental adoption without disrupting active release cycles","Implemented AI-powered content generation features using OpenAI APIs, automating creation of group and event descriptions — reducing manual data entry for staff and accelerating common high-frequency workflows","Integrated contextual help content APIs directly within the product UI, eliminating context switching for users seeking support — including a client-side caching layer that prevented redundant API calls and improved perceived performance for returning users","Mentored and provided architectural guidance to 8-10 engineers through code reviews, pairing, and hands-on implementation — reducing direct dependency on senior review over time","Promoted accessibility and usability best practices across shared UI components and design system foundations","Contributed to backend integration patterns and API design within a .NET ecosystem, ensuring alignment between frontend architecture and service-layer capabilities"],"url":"http://www.acstechnologies.com/","breakAfter":true},{"company":"ACS Technologies, Inc.","position":"Architect Lead","timePeriod":"May 2021 - Sep 2022","description":["Led architectural redesign of a flagship SaaS platform, improving maintainability and enabling faster feature development","Migrated legacy jQuery-based UI systems to a modern Vue component architecture, reducing technical debt and regression risk","Acted as escalation point for complex frontend challenges, resolving cross-team technical blockers","Provided mentorship and training that improved consistency and quality across engineering teams"],"url":"http://www.acstechnologies.com/"},{"company":"ACS Technologies, Inc.","position":"Principal Software Engineer","timePeriod":"Aug 2016 - May 2021","description":["Led a Frontend Community of Practice supporting 30+ engineers, aligning patterns and reducing architectural divergence","Established shared frontend patterns, asset pipelines, and review practices to improve long-term maintainability","Drove early modernization efforts toward component-based architectures, improving development velocity","Contributed to hiring and mentoring efforts, strengthening frontend expertise across teams"],"url":"http://www.acstechnologies.com/"},{"company":"ACS Technologies, Inc.","position":"Senior Software Architect","timePeriod":"Apr 2012 - Aug 2016","description":["Defined frontend technical direction and mentored developers to improve code quality and consistency","Built and documented shared frontend patterns and components to support cross-team reuse","Developed an internal “app kit” with documentation, code samples, and live demos to accelerate onboarding","Initiated transition from jQuery plugins to Vue-based component architecture within a .NET platform"],"url":"http://www.acstechnologies.com/"}],"education":[{"school":"Francis Marion University, Florence, SC","degree":"Bachelor of Science, Computer Science","minor":"Applied Mathematics","honors":"President's List; Dean's List","url":"http://www.fmarion.edu/computerscience/"}],"projects":[{"name":"Verse of the Day","platform":"Nuxt / Vue / Cloudflare Worker / Node.js","description":"Built and deployed a Nuxt/Vue application along with a Cloudflare Worker and Node.js Web Push service, delivering daily dynamic content with subscription-based push notifications.","url":"https://youbibleverse.com"},{"name":"Magic Resume Generator","platform":"Vite / Vue 3","description":"Developed a resume generation system using Vite, Vue 3, Puppeteer, and LESS to programmatically render and export tailored PDF resumes.","url":"https://github.com/doug-gainey/magic-resume-generator"}],"lang":"en"}
+{
+  "name": { "first": "Douglas", "last": "Gainey" },
+  "position": "Principal Software Engineer | Full-Stack & Frontend Architecture",
+  "location": "Florence, SC",
+  "contact": {
+    "email": "douggainey@gmail.com",
+    "phone": "843.615.8725",
+    "website": "douggainey.com",
+    "linkedin": "doug-gainey",
+    "github": "doug-gainey"
+  },
+  "picture": "https://douggainey.com/personal-photo.jpg",
+  "about": [
+    "Principal-level Software Engineer with extensive experience building and modernizing enterprise web applications across full-stack environments. Strong background in .NET-based systems combined with deep expertise in frontend architecture, design systems, and scalable UI platforms.",
+    "Experienced working across teams to deliver maintainable, user-centered applications while remaining hands-on in development, prototyping, and system design. Known for bridging gaps between architecture and implementation, enabling teams to build consistent, scalable software at speed. Comfortable working across the stack, with a focus on building well-structured systems that connect backend services with intuitive, user-centered interfaces."
+  ],
+  "skills": [
+    {
+      "type": "Full Stack Development",
+      "skills": [
+        ".NET Core / ASP.NET",
+        "C#",
+        "PHP",
+        "SQL Server",
+        "MySQL",
+        "Nuxt",
+        "Cloudflare Workers",
+        "Node.js",
+        "Express",
+        "REST APIs"
+      ]
+    },
+    {
+      "type": "Frontend Engineering",
+      "skills": [
+        "Vue.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Component Architecture",
+        "State Management",
+        "API Integration"
+      ]
+    },
+    {
+      "type": "Design Systems & UI Platforms",
+      "skills": [
+        "Component Libraries",
+        "Design Systems",
+        "Web Components",
+        "Documentation & Developer Experience"
+      ]
+    },
+    {
+      "type": "Technical Leadership",
+      "skills": [
+        "Architecture Guidance",
+        "Mentorship",
+        "Code Reviews",
+        "Cross-Team Collaboration"
+      ]
+    },
+    {
+      "type": "Tooling & DevOps",
+      "skills": [
+        "Vite",
+        "Node.js / npm",
+        "CI/CD (GitHub Actions, Jenkins)",
+        "Observability (Datadog, Pendo)"
+      ]
+    },
+    {
+      "type": "AI Integration",
+      "skills": [
+        "OpenAI APIs",
+        "AI-Assisted workflows (GitHub Copilot, Cursor, Claude)"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "ACS Technologies, Inc.",
+      "position": "Enterprise Front-End Architect",
+      "timePeriod": "Sep 2022 - Feb 2026",
+      "description": [
+        "Served as senior frontend technical authority across 10+ engineering teams and 8+ SaaS applications, influencing the work of 30+ engineers organization-wide through architectural standards, code reviews, and hands-on implementation",
+        "Built and evolved the Particle design system — 50+ components adopted across 5 teams and 15+ engineers — accelerating frontend development velocity, reducing architectural dependency on senior engineers, and improving onboarding speed for new team members",
+        "Developed a framework-agnostic Web Components platform that extended shared, reusable UI across 6 products spanning Vue, Angular, and React stacks — eliminating duplicated feature builds without adding framework dependencies to any consuming application",
+        "Led Vue 2 to Vue 3 migration for a flagship product spanning 5 engineering teams, delivering a reusable upgrade framework that enabled incremental adoption without disrupting active release cycles",
+        "Implemented AI-powered content generation features using OpenAI APIs, automating creation of group and event descriptions — reducing manual entry for staff and accelerating common high-frequency workflows",
+        "Integrated contextual help content APIs directly within the product UI, eliminating context switching for users seeking support — including a client-side caching layer that prevented redundant API calls and improved perceived performance for returning users",
+        "Mentored and provided architectural guidance to 8-10 engineers through code reviews, pairing, and hands-on implementation — reducing direct dependency on senior review over time",
+        "Promoted accessibility and usability best practices across shared UI components and design system foundations",
+        "Contributed to backend integration patterns and API design within a .NET ecosystem, ensuring alignment between frontend architecture and service-layer capabilities"
+      ],
+      "url": "http://www.acstechnologies.com/",
+      "breakAfter": true
+    },
+    {
+      "company": "ACS Technologies, Inc.",
+      "position": "Architect Lead",
+      "timePeriod": "May 2021 - Sep 2022",
+      "description": [
+        "Led architectural redesign of a flagship SaaS platform, improving maintainability and enabling faster feature development",
+        "Migrated legacy jQuery-based UI systems to a modern Vue component architecture, reducing technical debt and regression risk",
+        "Acted as escalation point for complex frontend challenges, resolving cross-team technical blockers",
+        "Provided mentorship and training that improved consistency and quality across engineering teams"
+      ],
+      "url": "http://www.acstechnologies.com/"
+    },
+    {
+      "company": "ACS Technologies, Inc.",
+      "position": "Principal Software Engineer",
+      "timePeriod": "Aug 2016 - May 2021",
+      "description": [
+        "Led a Frontend Community of Practice supporting 30+ engineers, aligning patterns and reducing architectural divergence",
+        "Established shared frontend patterns, asset pipelines, and review practices to improve long-term maintainability",
+        "Drove early modernization efforts toward component-based architectures, improving development velocity",
+        "Contributed to hiring and mentoring efforts, strengthening frontend expertise across teams"
+      ],
+      "url": "http://www.acstechnologies.com/"
+    },
+    {
+      "company": "ACS Technologies, Inc.",
+      "position": "Senior Software Architect",
+      "timePeriod": "Apr 2012 - Aug 2016",
+      "description": [
+        "Defined frontend technical direction and mentored developers to improve code quality and consistency",
+        "Built and documented shared frontend patterns and components to support cross-team reuse",
+        "Developed an internal “app kit” with documentation, code samples, and live demos to accelerate onboarding",
+        "Initiated transition from jQuery plugins to Vue-based component architecture within a .NET platform"
+      ],
+      "url": "http://www.acstechnologies.com/"
+    }
+  ],
+  "education": [
+    {
+      "school": "Francis Marion University, Florence, SC",
+      "degree": "Bachelor of Science, Computer Science",
+      "minor": "Applied Mathematics",
+      "honors": "President's List; Dean's List",
+      "url": "http://www.fmarion.edu/computerscience/"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Verse of the Day",
+      "platform": "Nuxt / Vue / Cloudflare Worker / Node.js",
+      "description": "Built and deployed a Nuxt/Vue application along with a Cloudflare Worker and Node.js Web Push service, delivering daily dynamic content with subscription-based push notifications.",
+      "url": "https://youbibleverse.com"
+    },
+    {
+      "name": "Magic Resume Generator",
+      "platform": "Vite / Vue 3",
+      "description": "Developed a resume generation system using Vite, Vue 3, Puppeteer, and LESS to programmatically render and export tailored PDF resumes.",
+      "url": "https://github.com/doug-gainey/magic-resume-generator"
+    }
+  ],
+  "lang": "en"
+}

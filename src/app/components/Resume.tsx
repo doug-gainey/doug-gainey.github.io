@@ -135,8 +135,8 @@ export function Resume() {
                 <li>
                   Implemented AI-powered content generation features using
                   OpenAI APIs, automating creation of group and event
-                  descriptions — reducing manual data entry for church staff and
-                  accelerating a common high-frequency workflow
+                  descriptions — reducing manual entry for staff and
+                  accelerating common high-frequency workflows
                 </li>
                 <li>
                   Integrated contextual help content APIs directly within the
