@@ -2,7 +2,7 @@ name:
   first: Douglas
   last: Gainey
 
-position: Principal Software Engineer | Frontend Architecture & Design Systems
+position: Principal Software Engineer | Full-Stack & Frontend Architecture
 
 location: Florence, SC
 
@@ -18,21 +18,49 @@ contact:
 picture: https://douggainey.com/personal-photo.jpg
 
 about:
-  - Principal-level Frontend Engineer with extensive experience designing, modernizing, and scaling enterprise web platforms. Served as the highest-level frontend technical leader at ACS Technologies, defining architectural standards across 10+ engineering teams and 8+ enterprise applications. Deep expertise in Vue.js, React, TypeScript, design systems, and frontend platform engineering. Hands-on individual contributor focused on scalable systems, modernization initiatives, cross-team technical leadership, and long-term maintainability.
+  - Principal-level Software Engineer with extensive experience building and modernizing enterprise web applications across full-stack environments. Strong background in .NET-based systems combined with deep expertise in frontend architecture, design systems, and scalable UI platforms.
+  - Experienced working across teams to deliver maintainable, user-centered applications while remaining hands-on in development, prototyping, and system design. Known for bridging gaps between architecture and implementation, enabling teams to build consistent, scalable software at speed. Comfortable working across the stack, with a focus on building well-structured systems that connect backend services with intuitive, user-centered interfaces.
 
 skills:
-  - type: Frontend Architecture & Platform Engineering
+  - type: Full Stack Development
     skills:
-      - TypeScript, Vue.js, React, Tailwind CSS, Design Systems, Component Libraries, Web Components
-  - type: Technical Leadship
+      - .NET Core / ASP.NET
+      - C#
+      - PHP
+      - SQL Server
+      - MySQL
+      - Nuxt
+      - Cloudflare Workers
+      - Node.js
+      - Express
+      - REST APIs
+  - type: Frontend Engineering
     skills:
-      - Cross-Team Architecture Governance, Frontend Modernization, Hands-On Mentorship
-  - type: Backend & Data
+      - Vue.js
+      - React
+      - TypeScript
+      - Tailwind CSS
+      - Component Architecture
+      - State Management
+      - API Integration
+  - type: Design Systems & UI Platforms
     skills:
-      - .NET Core, C#, SQL Server, REST APIs
+      - Component Libraries
+      - Design Systems
+      - Web Components
+      - Documentation & Developer Experience
+  - type: Technical Leadership
+    skills:
+      - Architecture Guidance
+      - Mentorship
+      - Code Reviews
+      - Cross-Team Collaboration
   - type: Tooling & DevOps
     skills:
-      - Vite, Node.js / npm, CI/CD (GitHub Actions, Jenkins), Observability (Datadog, Pendo)
+      - Vite
+      - Node.js / npm
+      - CI/CD (GitHub Actions, Jenkins)
+      - Observability (Datadog, Pendo)
   - type: AI Integration
     skills:
       - OpenAI APIs
