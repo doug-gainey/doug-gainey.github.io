@@ -43,10 +43,6 @@ export function Resume() {
               <span>douggainey@gmail.com</span>
             </div>
             <div className="flex items-center gap-2 text-foreground">
-              <Phone size={18} className="text-muted-foreground" />
-              <span>(843) 615-8725</span>
-            </div>
-            <div className="flex items-center gap-2 text-foreground">
               <MapPin size={18} className="text-muted-foreground" />
               <span>Florence, SC</span>
             </div>
