@@ -18,7 +18,7 @@ export function Resume() {
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Resume</h1>
               <p className="text-xl text-primary-foreground/90">
-                Principal Software Engineer
+                Senior Full-Stack Engineer
               </p>
             </div>
             <a
@@ -60,21 +60,21 @@ export function Resume() {
 
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Principal-level Software Engineer with extensive experience
-              building and modernizing enterprise web applications across
-              full-stack environments. Strong background in .NET-based systems
-              combined with deep expertise in frontend architecture, design
-              systems, and scalable UI platforms.
+              Senior Full-Stack Engineer with extensive experience building
+              scalable, data-driven SaaS applications across frontend and
+              backend systems. Deep expertise in Vue.js, TypeScript, .NET/C#,
+              SQL, REST APIs, and cloud-based services, with a strong focus on
+              creating intuitive user experiences for complex business
+              workflows.
             </p>
             <p>
-              Experienced working across teams to deliver maintainable,
-              user-centered applications while remaining hands-on in
-              development, prototyping, and system design. Known for bridging
-              gaps between architecture and implementation, enabling teams to
-              build consistent, scalable software at speed. Comfortable working
-              across the stack, with a focus on building well-structured systems
-              that connect backend services with intuitive, user-centered
-              interfaces.
+              Experienced leading modernization initiatives, designing reusable
+              component systems, integrating frontend applications with
+              distributed backend services, and delivering maintainable,
+              high-performance software in fast-moving product environments.
+              Hands-on engineer who enjoys collaborating closely with product,
+              design, and data teams to turn complex requirements into polished,
+              user-centered solutions.
             </p>
           </div>
         </section>
@@ -94,6 +94,25 @@ export function Resume() {
             <div className="border-l-4 border-primary pl-6">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
                 <h3 className="text-xl font-semibold text-foreground">
+                  Senior Front-End Developer{" "}
+                </h3>
+                <span className="text-muted-foreground">
+                  July 2026 - Present
+                </span>
+              </div>
+              <p className="text-foreground/80 mb-3">
+                Security Risk Advisors Intl, LLC
+              </p>
+              <p className="text-muted-foreground">
+                Currently serving as a senior engineer building VECTR, a
+                cybersecurity tool used by Fortune 500 companies for purple team
+                collaboration and adversary simulation reporting.
+              </p>
+            </div>
+
+            <div className="border-l-4 border-primary/70 pl-6">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+                <h3 className="text-xl font-semibold text-foreground">
                   Enterprise Front-End Architect{" "}
                 </h3>
                 <span className="text-muted-foreground">
@@ -101,32 +120,34 @@ export function Resume() {
                 </span>
               </div>
               <p className="text-foreground/80 mb-3">ACS Technologies, Inc.</p>
-              <ul className="list-disc list-inside space-y-2 text-muted-foreground">
+              <p className="text-muted-foreground">
+                Led the design and implementation of shared frontend systems and
+                data-driven SaaS experiences across multiple enterprise
+                applications, collaborating closely with backend, product, and
+                UX teams to deliver scalable, maintainable solutions.
+              </p>
+              <ul className="list-disc list-outside ml-6 space-y-2 px-2 py-2 text-muted-foreground">
                 <li>
-                  Served as senior frontend technical authority across 10+
-                  engineering teams and 8+ SaaS applications, influencing the
-                  work of 30+ engineers organization-wide through architectural
-                  standards, code reviews, and hands-on implementation
+                  Built and maintained the Particle design system, a shared
+                  component library adopted across 8+ enterprise applications
+                  and used by 30+ engineers to deliver consistent, reusable UI
+                  patterns.
                 </li>
                 <li>
-                  Built and evolved the Particle design system — 50+ components
-                  adopted across 5 teams and 15+ engineers — accelerating
-                  frontend development velocity, reducing architectural
-                  dependency on senior engineers, and improving onboarding speed
-                  for new team members
+                  Led Vue 2 → Vue 3 migration initiatives across multiple
+                  engineering teams, creating reusable migration patterns that
+                  enabled incremental adoption without disrupting active product
+                  delivery.
                 </li>
                 <li>
-                  Developed a framework-agnostic Web Components platform that
-                  extended shared, reusable UI across 6 products spanning Vue,
-                  Angular, and React stacks — eliminating duplicated feature
-                  builds without adding framework dependencies to any consuming
-                  application
+                  Integrated frontend applications with RESTful backend services
+                  and asynchronous data flows, supporting complex business
+                  workflows and large-scale SaaS operations.
                 </li>
                 <li>
-                  Led Vue 2 to Vue 3 migration for a flagship product spanning 5
-                  engineering teams, delivering a reusable upgrade framework
-                  that enabled incremental adoption without disrupting active
-                  release cycles
+                  Collaborated with product managers, designers, and backend
+                  engineers to simplify complex data-driven workflows and
+                  deliver intuitive, accessible user experiences.
                 </li>
                 <li>
                   Implemented AI-powered content generation features using
@@ -135,30 +156,19 @@ export function Resume() {
                   accelerating common high-frequency workflows
                 </li>
                 <li>
-                  Integrated contextual help content APIs directly within the
-                  product UI, eliminating context switching for users seeking
-                  support — including a client-side caching layer that prevented
-                  redundant API calls and improved perceived performance for
-                  returning users
+                  Built AI-powered content generation features using OpenAI
+                  APIs, automating workflow tasks and reducing manual data entry
+                  for end users.
                 </li>
                 <li>
-                  Mentored and provided architectural guidance to 8-10 engineers
-                  through code reviews, pairing, and hands-on implementation —
-                  reducing direct dependency on senior review over time
-                </li>
-                <li>
-                  Promoted accessibility and usability best practices across
-                  shared UI components and design system foundations
-                </li>
-                <li>
-                  Contributed to backend integration patterns and API design
-                  within a .NET ecosystem, ensuring alignment between frontend
-                  architecture and service-layer capabilities
+                  Mentored engineers through code reviews, pairing, and
+                  architecture discussions while remaining actively hands-on in
+                  implementation and debugging.
                 </li>
               </ul>
             </div>
 
-            <div className="border-l-4 border-primary/70 pl-6">
+            <div className="border-l-4 border-primary/60 pl-6">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
                 <h3 className="text-xl font-semibold text-foreground">
                   Architect Lead
@@ -168,24 +178,30 @@ export function Resume() {
                 </span>
               </div>
               <p className="text-foreground/80 mb-3">ACS Technologies, Inc.</p>
-              <ul className="list-disc list-inside space-y-2 text-muted-foreground">
+              <p className="text-muted-foreground">
+                Led the architectural redesign of a flagship church management
+                SaaS platform, balancing active feature delivery with long-term
+                maintainability.
+              </p>
+              <ul className="list-disc list-outside ml-6 space-y-2 px-2 py-2 text-muted-foreground">
                 <li>
-                  Led architectural redesign of a flagship SaaS platform,
-                  improving maintainability and enabling faster feature
-                  development
+                  Drove the transition from a legacy jQuery-based UI to a modern
+                  Vue component architecture, reducing technical debt while
+                  keeping teams productive throughout the migration.
                 </li>
                 <li>
-                  Migrated legacy jQuery-based UI systems to a modern Vue
-                  component architecture, reducing technical debt and regression
-                  risk
+                  Worked closely with product and design to translate
+                  requirements into clean, maintainable frontend
+                  implementations, and with backend engineers to define API
+                  contracts that served the UI well.
                 </li>
                 <li>
-                  Acted as escalation point for complex frontend challenges,
-                  resolving cross-team technical blockers
+                  Established code review practices across the team focused on
+                  consistency, accessibility, and long-term code health.
                 </li>
                 <li>
-                  Provided mentorship and training that improved consistency and
-                  quality across engineering teams
+                  Acted as the primary escalation point for complex frontend
+                  challenges across product teams.
                 </li>
               </ul>
             </div>
@@ -200,27 +216,31 @@ export function Resume() {
                 </span>
               </div>
               <p className="text-foreground/80 mb-3">ACS Technologies, Inc.</p>
-              <ul className="list-disc list-inside space-y-2 text-muted-foreground">
+              <p className="text-muted-foreground">
+                Hands-on principal engineer and community leader focused on
+                shared component systems and frontend standards across a 30+
+                engineer organization.
+              </p>
+              <ul className="list-disc list-outside ml-6 space-y-2 px-2 py-2 text-muted-foreground">
                 <li>
-                  Led a Frontend Community of Practice supporting 30+ engineers,
-                  aligning patterns and reducing architectural divergence
+                  Built and maintained the shared component library and asset
+                  pipeline that became the direct foundation for the Particle
+                  design system.
                 </li>
                 <li>
-                  Established shared frontend patterns, asset pipelines, and
-                  review practices to improve long-term maintainability
+                  Led a Frontend Community of Practice across 30+ engineers,
+                  creating a regular forum for aligning on patterns, surfacing
+                  issues, and sharing knowledge across distributed teams.
                 </li>
                 <li>
-                  Drove early modernization efforts toward component-based
-                  architectures, improving development velocity
-                </li>
-                <li>
-                  Contributed to hiring and mentoring efforts, strengthening
-                  frontend expertise across teams
+                  Drove adoption of modern frontend practices including
+                  component-driven development, TypeScript, and performance
+                  optimization across the engineering organization.
                 </li>
               </ul>
             </div>
 
-            <div className="border-l-4 border-primary/50 pl-6">
+            <div className="border-l-4 border-primary/40 pl-6">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
                 <h3 className="text-xl font-semibold text-foreground">
                   Senior Software Architect
@@ -230,22 +250,26 @@ export function Resume() {
                 </span>
               </div>
               <p className="text-foreground/80 mb-3">ACS Technologies, Inc.</p>
-              <ul className="list-disc list-inside space-y-2 text-muted-foreground">
+              <p className="text-muted-foreground">
+                Hands-on architect responsible for frontend technical direction,
+                shared component systems, and full-stack feature delivery across
+                a large .NET and JavaScript platform.
+              </p>
+              <ul className="list-disc list-outside ml-6 space-y-2 px-2 py-2 text-muted-foreground">
                 <li>
-                  Defined frontend technical direction and mentored developers
-                  to improve code quality and consistency
+                  Delivered full-stack features across SQL Server databases,
+                  .NET backend services, and modern JavaScript frontends, owning
+                  work end-to-end from design through deployment.
                 </li>
                 <li>
-                  Built and documented shared frontend patterns and components
-                  to support cross-team reuse
+                  Defined shared frontend standards and mentored engineers on
+                  component design, code quality, and accessible development
+                  practices.
                 </li>
                 <li>
-                  Developed an internal “app kit” with documentation, code
-                  samples, and live demos to accelerate onboarding
-                </li>
-                <li>
-                  Initiated transition from jQuery plugins to Vue-based
-                  component architecture within a .NET platform
+                  Initiated and led the transition from jQuery plugin
+                  architecture to a Vue-based component system, establishing the
+                  foundation for future frontend modernization efforts.
                 </li>
               </ul>
             </div>
